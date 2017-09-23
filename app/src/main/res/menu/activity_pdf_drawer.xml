@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_buku"
+            android:icon="@drawable/ic_action_book"
+            android:title="Buku Panduan" />
+        <item
+            android:id="@+id/nav_Slide"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slide Presentasi" />
+        <item
+            android:id="@+id/nav_poster"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Poster" />
+        <item
+            android:id="@+id/nav_latihan"
+            android:icon="@drawable/ic_action_latihan"
+            android:title="Latihan" />
+        <item
+            android:id="@+id/nav_download"
+            android:icon="@drawable/ic_action_name"
+            android:title="Download" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_action_about"
+            android:title="About"/>
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+           <!---->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
